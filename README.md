@@ -1,1 +1,4 @@
-In this project, we are trying to eztimate the quality and quantity of water flow using through a water body(domestic). In estimating the quality, we are
+In this project, we are trying to eztimate the quality and quantity of water flow using through a water body(domestic). In estimating the quality, we are using ph sensor to calculate the ph value of water and classify it as sofft water, hard water etc. 
+We used a NodeMCU and mqtt protocol for its calculation. We are using nodemcu to calculate the value of sensor and uploading the data. We attached sensor to it, added esp8266 library to the Arduino IDE, also used adafruit mqtt library for retrieving data. We uploaded all the data to cloud specifically and seperately for each user. As ph sensor is not available, we tried to demonstrate the same using temperature sensor.We also demonstrated graphs for the data obtained in the cloud.
+Later, we tried to estimate the quantity of water flow using water flow sensor. There, we estimated the total volume of water flown using water flow sensor and arduino uno. 
+Also, we added actuator for stopping the water flow after using a threshold amount using Arduino Uno.
